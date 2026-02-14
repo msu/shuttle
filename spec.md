@@ -717,4 +717,3 @@ HTML processing apply to the output of a Shuttle processor.
 | Void element | `(br)`                     | `<br>`                                            |
 | Nesting      | `(ul (li A) (li B))`       | `<ul><li>A</li><li>B</li></ul>`                   |
 | Comment      | `(! note !)`               | `<!-- note -->`                                   |
-
