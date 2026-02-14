@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<title>$title$</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="./specwriter/specwriter.css">
+<script defer src="./specwriter/specwriter.js"></script>
+
+<h1>$title$</h1>
+
+<dl class="summary-info">
+$for(author)$
+  <dt>Author</dt>
+  <dd>$author$</dd>
+$endfor$
+$if(created)$
+  <dt>Created</dt>
+  <dd>$created$</dd>
+$endif$
+$if(updated)$
+  <dt>Last Updated</dt>
+  <dd>$updated$</dd>
+$endif$
+$if(status)$
+  <dt>Status</dt>
+  <dd>$status$</dd>
+$endif$
+</dl>
+
+<details class=toc open>
+<summary>Table of Contents</summary>
+<table-of-contents></table-of-contents>
+</details>
+
+$body$
