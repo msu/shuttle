@@ -37,6 +37,9 @@ Produces the following HTML:
 </div>
 ```
 
+For the [gpt-4o](https://en.wikipedia.org/wiki/GPT-4o) tokenizer the above HTML creates 27 tokens, whereas the SHML 
+produces 19 tokens, a 29.6% reduction in token count.
+
 ### Design Goals
 
 Shuttle is designed with the following goals:
