@@ -1,6 +1,6 @@
 ---
 title: "Shuttle: An S-expression Based Markup Language"
-author: "Carson Gross (carson@bigsky.software)"
+author: "Carson Gross (carson.gross@montana.edu)"
 created: "February 14, 2026"
 updated: "February 14, 2026"
 status: "Living Document"
